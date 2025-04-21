@@ -1,0 +1,219 @@
+[
+    {
+        "msgs": [
+            "Hello! This is a friendly message with typing animation."
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "You can go back to previous messages if needed — like this one."
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "Oops! That message is being updated.",
+            "Here’s the updated message after rollback, with smoother animation!"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "Quick message incoming!"
+        ],
+        "msgInputSpeed": 40
+    },
+    {
+        "msgs": [
+            "Now speaking as another character..."
+        ],
+        "msgInputSpeed": 80,
+        "author": "me"
+    },
+    {
+        "msgs": [
+            "We can also show styled text like this one below."
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "<span style=\"color: red;\">Redspanlabelfont</span>"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "To continue, please type [OK]. If not, we’ll move on automatically."
+        ],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [
+                    "Good"
+                ],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": [
+                    "The input is good, don't you understand???",
+                    "Triggers a brute skip"
+                ]
+            }
+        }
+    },
+    {
+        "msgs": [
+            "Here's how we show images!"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "<img src='options/demo/imgs/test.png'/>"
+        ]
+    },
+    {
+        "msgs": [
+            "Want to see a video blog?"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "Hope you enjoy this VLog I made for you!"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "<vlog src='options/demo/vlogs/test.mp4'/>"
+        ],
+        "triggerNextAction": {
+            "type": "componentClose"
+        }
+    },
+    {
+        "msgs": [
+            "Let’s check out a heartfelt letter."
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "This is something I’ve been wanting to share with you."
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "<letter src='options/demo/letters/test.json'/>"
+        ],
+        "triggerNextAction": {
+            "type": "componentClose"
+        }
+    },
+    {
+        "msgs": [
+            "Running some general tests now..."
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "I have something personal to tell you — want to hear it?"
+        ],
+        "msgInputSpeed": 40,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [
+                    "Okay",
+                    "Yes",
+                    "Agree",
+                    "Willing",
+                    "Think",
+                    "I want to hear it",
+                    "Yes"
+                ],
+                "rejectKeyTexts": [
+                    "Don't want to"
+                ],
+                "rejectHitTexts": [
+                    "Don't listen? Believe it or not, I'll show you bugs every minute?",
+                    "Well, since you really don't want to hear it, then I'll tell you about it :)"
+                ]
+            }
+        }
+    },
+    {
+        "msgs": [
+            "Everything I want to say is written in this letter."
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "<letter src='options/demo/letters/test.json'/>"
+        ],
+        "triggerNextAction": {
+            "type": "componentClose"
+        }
+    },
+    {
+        "msgs": [
+            "Guess what I’m thinking right now?"
+        ],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [
+                    "Miss me"
+                ],
+                "rejectKeyTexts": [
+                    "I don't know"
+                ],
+                "rejectHitTexts": [
+                    "You guessed wrong :)",
+                    [
+                        "Here's a hint for you",
+                        "It's personal"
+                    ],
+                    "None of this is true???",
+                    [
+                        "Well, look at the picture.",
+                        "<img src='options/demo/imgs/test.png'>"
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "msgs": [
+            "I was thinking about gaming!",
+            "Actually… I was thinking about you ❤️"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "Take a look at this video I found!"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "<vlog src='options/demo/vlogs/test.mp4'/>"
+        ],
+        "triggerNextAction": {
+            "type": "componentClose"
+        }
+    },
+    {
+        "msgs": [
+            "That’s it for the test — this space is open for your own message!"
+        ],
+        "msgInputSpeed": 80
+    }
+]
